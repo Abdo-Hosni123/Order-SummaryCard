@@ -5,9 +5,11 @@
   font-family: "Red Hat Display", sans-serif;
 }
 body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: repeat-x;
   background-color: hsl(225, 100%, 94%);
 }
-.container {
+.card-container {
   width: 500px;
   height: 680px;
   margin: 100px auto;
@@ -16,9 +18,15 @@ body {
   border-radius: 20px;
 }
 
-.card-illustration {
+.card-image {
   width: 100%;
   border-radius: 20px 20px 0 0;
+}
+.card-information {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .card-order {
   margin-top: 30px;
@@ -34,12 +42,6 @@ body {
   color: gray;
   line-height: 1.4;
 }
-.main-article {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
 .main-card {
   margin-top: 30px auto;
   width: 360px;
@@ -51,7 +53,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.card {
+.card-plan {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -64,17 +66,18 @@ body {
 .card-price {
   color: gray;
 }
-.btn-change {
+.card-change {
   color: hsl(245, 75%, 52%);
   font-weight: bold;
   font-size: 12px;
 }
-.btn-change:hover {
+.card-change:hover {
   color: rgba(56, 41, 224, 0.7);
   text-decoration: none;
   cursor: pointer;
 }
-.aside {
+/* Footer  */
+.footer {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
@@ -87,12 +90,13 @@ body {
   height: 50px;
   width: 360px;
   font-weight: bold;
+  box-shadow: 0 8px 8px hsla(229, 75%, 52%, 0.3);
   border: none;
   border-radius: 10px;
+  transition: 0.8s;
   cursor: pointer;
 }
 .card-payment:hover {
-  transition: 0.8s;
   background-color: rgba(68, 55, 255, 0.811);
   box-shadow: 0 0 5px rgba(68, 55, 255, 0.888);
 }

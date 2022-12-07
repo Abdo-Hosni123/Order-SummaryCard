@@ -8,16 +8,15 @@
     <link href="main.css" rel="StyleSheet" />
   </head>
   <body>
-    <div class="container">
-      <header>
+    <div class="card-container">
+      <article>
         <img
           src="images/illustration-hero.svg"
           alt="image_desgein"
-          class="card-illustration"
+          class="card-image"
         />
-      </header>
-      <article>
-        <div class="main-article">
+
+        <div class="card-information">
           <h2 class="card-order">Order Summary</h2>
           <p class="card-discription">
             You can now listen to millions of songs,<br />
@@ -27,18 +26,18 @@
 
           <div class="main-card">
             <img src="images/icon-music.svg" alt="image of music" />
-            <div class="card">
+            <div class="card-plan">
               <h3 class="card-type">Annual Plan</h3>
               <p class="card-price">$59.99/year</p>
             </div>
-            <a href="#" class="btn-change">Change</a>
+            <a href="#" class="card-change">Change</a>
           </div>
         </div>
+        <footer class="footer">
+          <button class="card-payment">Proceed to Payment</button>
+          <button class="card-cancel">Cancel Order</button>
+        </footer>
       </article>
-      <aside class="aside">
-        <button class="card-payment">Proceed to Payment</button>
-        <button class="card-cancel">Cancel Order</button>
-      </aside>
     </div>
   </body>
 </html>
