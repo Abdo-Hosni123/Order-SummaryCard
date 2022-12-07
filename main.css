@@ -90,7 +90,7 @@ body {
   height: 50px;
   width: 360px;
   font-weight: bold;
-  box-shadow: 0 8px 8px hsla(229, 75%, 52%, 0.3);
+  box-shadow: 0 5px 5px hsla(229, 75%, 52%, 0.3);
   border: none;
   border-radius: 10px;
   transition: 0.8s;
