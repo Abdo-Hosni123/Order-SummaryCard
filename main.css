@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+}
+.container {
+  width: 500px;
+  height: 680px;
+  margin: 100px auto;
+  background-color: white;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.card-illustration {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+.card-order {
+  margin-top: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 25px;
+  font-weight: 800;
+}
+.card-discription {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: gray;
+  line-height: 1.4;
+}
+.main-article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-card {
+  margin-top: 30px auto;
+  width: 360px;
+  height: 90px;
+  background-color: #f6f6f6;
+  display: flex;
+  gap: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-right: 50px;
+}
+.card-type {
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-price {
+  color: gray;
+}
+.btn-change {
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+  font-size: 12px;
+}
+.btn-change:hover {
+  color: rgba(56, 41, 224, 0.7);
+  text-decoration: none;
+  cursor: pointer;
+}
+.aside {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-payment {
+  background-color: hsl(245, 75%, 52%);
+  font-size: 15px;
+  color: white;
+  height: 50px;
+  width: 360px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.card-payment:hover {
+  transition: 0.8s;
+  background-color: rgba(68, 55, 255, 0.811);
+  box-shadow: 0 0 5px rgba(68, 55, 255, 0.888);
+}
+.card-cancel {
+  background-color: white;
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+  height: 50px;
+  width: 360px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
