@@ -101,7 +101,7 @@ body {
   box-shadow: 0 0 5px rgba(68, 55, 255, 0.888);
 }
 .card-cancel {
-  background-color: white;
+  background-color: transparent;
   color: gray;
   font-weight: bold;
   font-size: 15px;
